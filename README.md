@@ -11,3 +11,6 @@ I tried to get last season's schedule for the Sixers but this returned only 40 g
 I know they were awful last season, but they did show up to all 82 games.  *Sooo*, I
 switched to the NFL and **finally** got some type of complete data.  I think I will
 try to find a better API next go round.
+
+The JavaScript file with the actual $http GET request is not present due to the
+presence of sensitive info.  You'll just have to make do without it.
