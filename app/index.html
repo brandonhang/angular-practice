@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	  <meta charset="utf-8">
+	  <title>Steelers Schedule</title>
+	  <!--<title>Philadelphia 76ers Schedule</title>-->
+	  <meta name="description" content="AngularJS Practice"/>
+	  <meta name="author" content="Brandon S. Hang"/>
+	</head>
+	<body ng-app="StillerCalendar" ng-controller="calendarController">
+	<!--<body ng-app="SixersApp" ng-controller="sixersController">-->
+		<table>
+			<thead>
+				<tr><th colspan="5">Pittsburgh Steelers 2016-2017 Schedule</th></tr>
+				<!--<tr><th colspan="5">Philadelphia 76ers 2016-2017 Schedule</th></tr>-->
+			</thead>
+			<tbody>
+				<tr ng-repeat="game in calendar">
+					<td>Week&nbsp{{game.week}}</td>
+					<td>{{game.where}}&nbsp{{game.team}}</td>
+					<td>{{game.date}}</td>
+					<td>{{game.score != '0-0' ? game.score : ''}}</td>
+					<td>{{game.status != 'undecided' ? game.status : ''}}</td>
+				</tr>
+			</tbody>
+		</table>
+		<script src="bower_components/angular/angular.js"></script>
+		<script src="bower_components/angular-route/angular-route.js"></script>
+		<script src="js/app.js"></script>
+		<script src="js/services.js"></script>
+		<script src="js/controllers.js"></script>
+	</body>
+</html>
