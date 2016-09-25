@@ -1,7 +1,7 @@
-## Forked from [Angular/Angular-Seed][https://github.com/angular/angular-seed]
+## Forked from [Angular/Angular-Seed](https://github.com/angular/angular-seed)
 
 This is meant to be practice using AngularJS to build a webapp (thus, no CSS).  The
-API used to pull the sports data is from [Stattleship][https://www.stattleship.com/].
+API used to pull the sports data is from [Stattleship](https://www.stattleship.com/).
 I ended up fighting with the API more than I did learn Angular.  I initially wanted
 to show stat leaders from the 2015-2016 NBA regular season but trying to extract NBA
 data in general from this API was a major struggle (not to mention the documentation
